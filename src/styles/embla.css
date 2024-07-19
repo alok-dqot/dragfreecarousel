@@ -1,5 +1,5 @@
 .embla {
-  max-width: 48rem;
+  max-width: 60%;
   margin: auto;
   --slide-height: 19rem;
   --slide-spacing: 1rem;
@@ -28,6 +28,8 @@
   align-items: center;
   justify-content: center;
   height: var(--slide-height);
+  border: solid 2px black;
+  user-select: none;
 }
 .embla__controls {
   display: grid;
